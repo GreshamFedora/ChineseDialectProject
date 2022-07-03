@@ -1,0 +1,1752 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Phonology Picker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Overview</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Tables</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Cantonese</span></a>
+						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Hokkien</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1> Modern Chinese Dialect Project</h1>
+									<p>The tool (found by clicking the arrow to the right) is meant to be a tool to enable easy access to the phonology tables for the more popular East Asian languages/dialects in one place and, notably, without having to load multiple pages to procure said information.</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/map-china-dialects.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Phonology Tables</h2>
+									<small>Note: Information derived from 'Help:IPA/[insert language]' pages (e.g. Help:IPA/Mandarin)</small>
+								</header>
+								<section>
+
+									<button id="mandarinBtn">Mandarin</button>
+									<button id="cantoneseBtn">Cantonese</button>
+									<button id="hokkienBtn">Hokkien</button>
+									<button id="manCantBtn">Man-Cant</button>
+									<button id="cantHokBtn">Cant-Hok</button>
+									<button id="manHokBtn">Man-Hok</button>
+									<button id="triBtn">Man-Cant-Hok</button>
+								</section>										
+								<section>
+									<table id="mandarin" class="hidden">
+										
+										<tr>
+											<th scope="col" colspan="3">Mandarin</th>
+										</tr>
+										<tr>
+											<th colspan="3"><b>Consonants</b></th>
+										</tr>
+
+										<tr>
+											<td><b>IPA</b></td>
+											<td><b>Symbols</b></td>
+											<td><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>ɕ</td>
+											<td>x/ㄒ</td>
+											<td>西</td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td>f/ㄈ</td>
+											<td>非</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>y-/i-/一</td>
+											<td>牙</td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>g/ㄍ</td>
+											<td>干</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>k/ㄎ</td>
+											<td>口</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td>l/ㄌ</td>
+											<td>了</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ</td>
+											<td>明</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>你</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>-ng/ㄥ/ㄤ</td>
+											<td>江</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td>b/ㄅ</td>
+											<td>包</td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>p/ㄆ</td>
+											<td>旁</td>
+										</tr>
+										<tr>
+											<td>ʐ</td>
+											<td>r-/ㄖ</td>
+											<td>日</td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ</td>
+											<td>私</td>
+										</tr>
+										<tr>
+											<td>ʂ</td>
+											<td>sh/ㄕ</td>
+											<td>失</td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td>d/ㄉ</td>
+											<td>但</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>t/ㄊ</td>
+											<td>透</td>
+										</tr>
+										<tr>
+											<td>tɕ</td>
+											<td>j/ㄐ</td>
+											<td>叫</td>
+										</tr>
+										<tr>
+											<td>tɕʰ</td>
+											<td>q/ㄑ</td>
+											<td>去</td>
+										</tr>
+										<tr>
+											<td>ts</td>
+											<td>z/ㄗ</td>
+											<td>子</td>
+										</tr>
+										<tr>
+											<td>tsʰ</td>
+											<td>c/ㄘ</td>
+											<td>此</td>
+										</tr>
+										<tr>
+											<td>ʈʂ</td>
+											<td>zh/ㄓ</td>
+											<td>之</td>
+										</tr>
+										<tr>
+											<td>ʈʂʰ</td>
+											<td>ch/ㄔ</td>
+											<td>吃</td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>w-/u-/ㄨ</td>
+											<td>我</td>
+										</tr>
+										<tr>
+											<td>x</td>
+											<td>h/ㄏ</td>
+											<td>火</td>
+										</tr>
+										<tr>
+											<td>ɥ</td>
+											<td>yu-/-ü-/ㄩ</td>
+											<td>月</td>
+										</tr>
+									</table>									
+									<table id="cantonese" class="hidden">
+										<tr>
+											<th scope="col" colspan="3">Cantonese</th>
+										</tr>
+										<th colspan="3">
+											Consonants    
+										</th>
+										<tr>
+											<td><b>IPA</b></td>
+											<td><b>Symbols</b></td>
+											<td><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td>f/ㄈ</td>
+											<td>虎</td>
+										</tr>
+										<tr>
+											<td>h</td>
+											<td>h/ㄏ</td>
+											<td>客</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>j/一</td>
+											<td>月</td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>g-/ㄍ</td>
+											<td>家</td>
+										</tr>
+										<tr>
+											<td>k̚</td>
+											<td>-k/-ㄎ</td>
+											<td>識</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>k-/ㄎ-</td>
+											<td>卡</td>
+										</tr>
+										<tr>
+											<td>kʷ</td>
+											<td>gw/ㄍㄨ</td>
+											<td>瓜</td>
+										</tr>
+										<tr>
+											<td>kʷʰ</td>
+											<td>kw/ㄎㄨ</td>
+											<td>誇</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td>l/ㄌ</td>
+											<td>落</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ</td>
+											<td>莫</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ</td>
+											<td>男</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>ng/ㄫ </td>
+											<td>牙</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td>b/ㄅ</td>
+											<td>班</td>
+										</tr>
+										<tr>
+											<td>p̚</td>
+											<td>-p/-ㄆ</td>
+											<td>濕</td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>p-/ㄆ -</td>
+											<td>拍</td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ/ㄒ</td>
+											<td>西</td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td>d/ㄉ</td>
+											<td>打</td>
+										</tr>
+										<tr>
+											<td>t̚</td>
+											<td>-t/-ㄊ</td>
+											<td>失</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>t-/ㄊ -</td>
+											<td>拖</td>
+										</tr>
+										<tr>
+											<td>ts</td>
+											<td>z/ㄗ/ㄐ</td>
+											<td>將</td>
+										</tr>
+										<tr>
+											<td>tsʰ</td>
+											<td>c/ㄘ/ㄑ</td>
+											<td>鏘</td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>w/ㄨ</td>
+											<td>活</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ</td>
+											<td>唔</td>
+										</tr>
+										<tr>
+											<td>ŋ̩</td>
+											<td>ng/ㄫ </td>
+											<td>五</td>
+										</tr>
+										</table>
+									<table id="hokkien" class="hidden">
+										<tr>
+											<th scope="col" colspan="3">Hokkien</th>
+										</tr>
+										<th colspan="3">
+											Consonants    
+										</th>
+										<tr>
+											<td><b>IPA</b></td>
+											<td><b>Symbols</b></td>
+											<td><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td>p/ㄅ</td>
+											<td>布 (pòo)</td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>ph/ㄆ</td>
+											<td>普 (phóo)</td>
+										</tr>
+										<tr>
+											<td>b</td>
+											<td>b/Ext'd</td>
+											<td>明 (bîng)</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ/Ext'd</td>
+											<td>媽 (má), 暗 (àm), 參 (som), <br>心 (sim)*om=Changchiu accent </td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td>t/ㄉ/Ext'd</td>
+											<td>端 (tuan)</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>th/ㄊ</td>
+											<td>透 (thò)</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td>l/ㄌ</td>
+											<td>來 (lâi)</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>泥 (nî), 因 (in), 安 (an)</td>
+										</tr>
+										<tr>
+											<td>k </td>
+											<td>k/ㄍ</td>
+											<td>見 (kiàn)</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>kh/ㄎ</td>
+											<td>溪 (khe) </td>
+										</tr>
+										<tr>
+											<td>g</td>
+											<td>g/Ext’d</td>
+											<td>義 (gī)</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>ng/ㄥ, ㄤ, Ext’d</td>
+											<td>吳 (ngôo), 櫻 (ing), 幫 (pang), 王 (ông)</td>
+										</tr>
+										<tr>
+											<td>h	</td>
+											<td>h/ㄏ</td>
+											<td>曉 (hiáu)</td>
+										</tr>
+										<tr>
+											<td>ʔ </td>
+											<td>∅ /-h/◌ㄏ</td>
+											<td>影 (íng, [ʔiə̯ŋ˥˩]), 桌 (toh) </td>
+										</tr>
+										<tr>
+											<td>t͡s</td>
+											<td>ch/ㄗ</td>
+											<td>走 (tsáu) </td>
+										</tr>
+										<tr>
+											<td>t͡ɕ</td>
+											<td>ch/ㄐ</td>
+											<td>精 (tsing) </td>
+										</tr>
+										<tr>
+											<td>t͡sʰ</td>
+											<td>chh/ㄘ</td>
+											<td>菜 (tshài) </td>
+										</tr>
+										<tr>
+											<td>t͡ɕʰ</td>
+											<td>chh/ㄑ</td>
+											<td>市 (tshī) </td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ</td>
+											<td>三 (sam) </td>
+										</tr>
+										<tr>
+											<td>ɕ</td>
+											<td>s/ㄒ</td>
+											<td>審 (sím) </td>
+										</tr>
+										<tr>
+											<td>d͡z</td>
+											<td>j/Ext’d</td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>z</td>
+											<td>j/Ext’d</td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>d͡ʑ</td>
+											<td>j/Ext’d</td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>ʑ</td>
+											<td>j/Ext’d	</td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>m̩</td>
+											<td>m/Ext’d	</td>
+											<td>姆 (ḿ) </td>
+										</tr>
+										<tr>
+											<td>ŋ̍</td>
+											<td>ng/Ext’d</td>
+											<td>光 (kng) *Choan-chiu accent </td>
+										</tr>
+										<tr>
+											<td>p̚</td>
+											<td>p/◌ㄅ</td>
+											<td>合 (ha̍p)</td>
+										</tr>
+										<tr>
+											<td>t̚</td>
+											<td>t/◌ㄉ</td>
+											<td>七 (tshit)</td>
+										</tr>
+										<tr>
+											<td>k̚</td>
+											<td>k/◌ㄍ</td>
+											<td>角 (kak)</td>
+										</tr>
+							
+									</table>
+									<table id="manCant" class="hidden">
+										
+										<tr>
+											<th scope="col" colspan="5">Mandarin | Cantonese</th>
+										</tr>
+										<tr>
+											<th colspan="5"><b>Consonants</b></th>
+										</tr>
+
+										<tr>
+											<td rowspan="2"><b>IPA</b></td>
+											<td colspan="2"><b>Symbols</b></td>
+											<td colspan="2"><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>Mandarin</td>
+											<td>Cantonese</td>
+											<td>Mandarin</td>
+											<td>Cantonese</td>
+										</tr>
+										<tr>
+											<td>ɕ</td>
+											<td>x/ㄒ</td> 
+											<td></td>
+											<td>西</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td colspan="2">f/ㄈ</td>
+											<td>非</td>
+											<td>虎</td>
+										</tr>
+										<tr>
+											<td>h</td>
+											<td></td>
+											<td>h/ㄏ</td>
+											<td></td>
+											<td>客</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>y-/i-/一</td>
+											<td>j/一</td>
+											<td>牙</td>
+											<td>月</td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>g/ㄍ</td>
+											<td>g-/ㄍ</td>
+											<td>干</td>
+											<td>家</td>
+										</tr>
+										<tr>
+											<td>k̚</td>
+											<td></td>
+											<td>-k/-ㄎ</td>
+											<td></td>
+											<td>識</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>k/ㄎ</td>
+											<td>k-/ㄎ-</td>
+											<td>口</td>
+											<td>卡</td>
+										</tr>
+										<tr>
+											<td>kʷ</td>
+											<td></td>
+											<td>gw/ㄍㄨ</td>
+											<td></td>
+											<td>瓜</td>
+										</tr>
+										<tr>
+											<td>kʷʰ</td>
+											<td></td>
+											<td>kw/ㄎㄨ</td>
+											<td></td>
+											<td>誇</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td colspan="2">l/ㄌ</td>
+											<td>了</td>
+											<td>落</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td colspan="2">m/ㄇ</td>
+											<td>明</td>
+											<td>莫</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>n/ㄋ</td>
+											<td>你</td>
+											<td>男</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>-ng/ㄥ/ㄤ</td>
+											<td>ng/ㄫ</td>
+											<td>江</td>
+											<td>牙</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td colspan="2">b/ㄅ</td>
+											<td>包</td>
+											<td>班</td>
+										</tr>
+										<tr>
+											<td>p̚</td>
+											<td></td>
+											<td>-p/-ㄆ</td>
+											<td></td>
+											<td>濕</td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>p/ㄆ</td>
+											<td>p-/ㄆ-</td>
+											<td>旁</td>
+											<td>拍</td>
+										</tr>
+										<tr>
+											<td>ʐ</td>
+											<td>r-/ㄖ</td>
+											<td></td>
+											<td>日</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ</td>
+											<td>s/ㄙ/ㄒ</td>
+											<td>私</td>
+											<td>西/思</td>
+										</tr>
+										<tr>
+											<td>ʂ</td>
+											<td>sh/ㄕ</td>
+											<td></td>
+											<td>失</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td colspan="2">d/ㄉ</td>
+											<td>但</td>
+											<td>打</td>
+										</tr>
+										<tr>
+											<td>t̚</td>
+											<td></td>
+											<td>-t/-ㄊ</td>
+											<td></td>
+											<td>失</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>t/ㄊ</td>
+											<td>t-/ㄊ-</td>
+											<td>透</td>
+											<td>拖</td>
+										</tr>
+										<tr>
+											<td>tɕ</td>
+											<td>j/ㄐ</td>
+											<td></td>
+											<td>叫</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>tɕʰ</td>
+											<td>q/ㄑ</td>
+											<td></td>
+											<td>去</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ts</td>
+											<td>z/ㄗ</td>
+											<td>z/ㄗ/ㄐ</td>
+											<td>子</td>
+											<td>將</td>
+										</tr>
+										<tr>
+											<td>tsʰ</td>
+											<td>c/ㄘ</td>
+											<td>c/ㄘ/ㄑ</td>
+											<td>此</td>
+											<td>鏘</td>
+										</tr>
+										<tr>
+											<td>ʈʂ</td>
+											<td>zh/ㄓ</td>
+											<td></td>
+											<td>之</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ʈʂʰ</td>
+											<td>ch/ㄔ</td>
+											<td></td>
+											<td>吃</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>w-/u-/ㄨ</td>
+											<td>w/ㄨ</td>
+											<td>我</td>
+											<td>活</td>
+										</tr>
+										<tr>
+											<td>x</td>
+											<td>h/ㄏ</td>
+											<td></td>
+											<td>火</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ɥ</td>
+											<td>yu-/-ü-/ㄩ</td>
+											<td></td>
+											<td>月</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>m̩</td>
+											<td></td>
+											<td>m/ㄇ</td>
+											<td></td>
+											<td>唔</td>
+										</tr>
+										<tr>
+											<td>ŋ̩</td>
+											<td></td>
+											<td>ng/ㄫ</td>
+											<td></td>
+											<td>五</td>
+										</tr>
+									</table>
+									<table id="cantHok" class="hidden">
+										
+										<tr>
+											<th scope="col" colspan="5">Cantonese | Hokkien</th>
+										</tr>
+										<tr>
+											<th colspan="5"><b>Consonants</b></th>
+										</tr>
+
+										<tr>
+											<td rowspan="2"><b>IPA</b></td>
+											<td colspan="2"><b>Symbols</b></td>
+											<td colspan="2"><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>Cantonese</td>
+											<td>Hokkien</td>
+											<td>Cantonese</td>
+											<td>Hokkien</td>
+										</tr>
+										<tr>
+											<td>ɕ</td>
+											<td></td> 
+											<td>s/ㄒ</td>
+											<td></td>
+											<td>審 (sím)</td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td>f/ㄈ</td>
+											<td></td>
+											<td>虎</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>h</td>
+											<td>h/ㄏ</td>
+											<td>h/ㄏ</td>
+											<td>客</td>
+											<td>曉 (hiáu)</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>j/一</td>
+											<td></td>
+											<td>月</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>g-/ㄍ</td>
+											<td>k/ㄍ</td>
+											<td>家</td>
+											<td>見 (kiàn)</td>
+										</tr>
+										<tr>
+											<td>k̚</td>
+											<td>-k/-ㄎ</td>
+											<td>k/◌ㄍ</td>
+											<td>識</td>
+											<td>角 (kak)</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>k-/ㄎ-</td>
+											<td>kh/ㄎ</td>
+											<td>卡</td>
+											<td>溪 (khe)</td>
+										</tr>
+										<tr>
+											<td>kʷ</td>
+											<td>gw/ㄍㄨ</td>
+											<td></td>
+											<td>瓜</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>kʷʰ</td>
+											<td>kw/ㄎㄨ</td>
+											<td></td>
+											<td>誇</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>g</td>
+											<td></td>
+											<td>g/Ext'd</td>
+											<td></td>
+											<td>義 (gī)</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td>l/ㄌ</td>
+											<td>l/ㄌ</td>
+											<td>落</td>
+											<td>來 (lâi)</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ</td>
+											<td>m/ㄇ, Ext'dx2</td>
+											<td>明</td>
+											<td>莫</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>泥</td>
+											<td>泥 (nî), 因 (in), 安 (an)</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>ng/ㄫ</td>
+											<td>ng/ㄥ/ㄤ/Ext'd</td>
+											<td>牙</td>
+											<td>吳 (ngôo)<br>櫻 (ing)<br>幫 (pang)<br>王 (ông)</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td>b/ㄅ</td>
+											<td>p/ㄅ</td>
+											<td>班</td>
+											<td>布 (pòo)</td>
+										</tr>
+										<tr>
+											<td>p̚</td>
+											<td>-p/-ㄆ</td>
+											<td>p/◌ㄅ</td>
+											<td>濕</td>
+											<td>合 (ha̍p) </td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>p-/ㄆ-</td>
+											<td>ph/ㄆ</td>
+											<td>拍</td>
+											<td>普 (phóo)</td>
+										</tr>
+										<tr>
+											<td>b</td>
+											<td></td>
+											<td>b/Ext/d</td>
+											<td></td>
+											<td>明 (bîng)</td>
+										</tr>
+										<tr>
+											<td>z</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>ʑ</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>d͡ʑ</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ/ㄒ</td>
+											<td>s/ㄙ</td>
+											<td>西</td>
+											<td>三 (sam) </td>
+										</tr>
+										<tr>
+											<td>d͡z</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td>d/ㄉ</td>
+											<td>t/ㄉ</td>
+											<td>打</td>
+											<td>端 (tuan)</td>
+										</tr>
+										<tr>
+											<td>t̚</td>
+											<td>-t/-ㄊ</td>
+											<td>t/◌ㄉ</td>
+											<td>失</td>
+											<td>七 (tshit)</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>t-/ㄊ-</td>
+											<td>th/ㄊ</td>
+											<td>拖</td>
+											<td>透 (thò)</td>
+										</tr>
+										<tr>
+											<td>t͡ɕ</td>
+											<td></td>
+											<td>ch/ㄐ</td>
+											<td></td>
+											<td>精 (tsing)</td>
+										</tr>
+										<tr>
+											<td>t͡ɕʰ</td>
+											<td></td>
+											<td>chh/ㄑ</td>
+											<td></td>
+											<td>市 (tshī)</td>
+										</tr>
+										<tr>
+											<td>t͡s</td>
+											<td>z/ㄗ/ㄐ</td>
+											<td>ch/ㄗ</td>
+											<td>將</td>
+											<td>走 (tsáu)</td>
+										</tr>
+										<tr>
+											<td>t͡sʰ</td>
+											<td>c/ㄘ/ㄑ</td>
+											<td>chh/ㄘ</td>
+											<td>鏘</td>
+											<td>菜 (tshài)</td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>w/ㄨ</td>
+											<td></td>
+											<td>活</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ʔ</td>
+											<td></td>
+											<td>∅/-h/◌ㄏ</td>
+											<td></td>
+											<td>影 (íng, [ʔiə̯ŋ˥˩]),<br>桌 (toh)</td>
+										</tr>
+										<tr>
+											<td>m̩</td>
+											<td>m/ㄇ</td>
+											<td>m/Ext'd</td>
+											<td>唔</td>
+											<td>姆 (ḿ)</td>
+										</tr>
+										<tr>
+											<td>ŋ̩</td>
+											<td>ng/ㄫ</td>
+											<td>ng/Ext'd</td>
+											<td>五</td>
+											<td>光 (kng)<br>*Choan-chiu accent</td>
+										</tr>
+
+									</table>
+									<table id="mandHok" class="hidden">
+										
+										<tr>
+											<th scope="col" colspan="5">Mandarin | Hokkien</th>
+										</tr>
+										<tr>
+											<th colspan="5"><b>Consonants</b></th>
+										</tr>
+
+										<tr>
+											<td rowspan="2"><b>IPA</b></td>
+											<td colspan="2"><b>Symbols</b></td>
+											<td colspan="2"><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>Mandarin</td>
+											<td>Hokkien</td>
+											<td>Mandarin</td>
+											<td>Hokkien</td>
+										</tr>
+										<tr>
+											<td>ɕ</td>
+											<td>x/ㄒ</td>
+											<td>s/ㄒ</td>
+											<td>西</td>
+											<td>審 (sím)</td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td>f/ㄈ</td>
+											<td></td>
+											<td>非</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>h</td>
+											<td></td>
+											<td>h/ㄏ</td>
+											<td></td>
+											<td>曉 (hiáu)</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>y-/i-</td>
+											<td></td>
+											<td>牙</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>g/ㄍ</td>
+											<td>k/ㄍ</td>
+											<td>干</td>
+											<td>見 (kiàn)</td>
+										</tr>
+										<tr>
+											<td>k̚</td>
+											<td></td>
+											<td>k/◌ㄍ</td>
+											<td></td>
+											<td>角 (kak)</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>k/ㄎ</td>
+											<td>kh/ㄎ</td>
+											<td>口</td>
+											<td>溪 (khe)</td>
+										</tr>
+										<tr>
+											<td>g</td>
+											<td></td>
+											<td>g/Ext'd</td>
+											<td></td>
+											<td>義 (gī)</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td colspan="2">l/ㄌ</td>
+											<td>了</td>
+											<td>來 (lâi)</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ</td>
+											<td>m/ㄇ, Ext'dx2</td>
+											<td>明</td>
+											<td>媽 (má)<br>暗 (àm)<br>參 (som)</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>泥</td>
+											<td>泥 (nî)<br>因 (in)<br>安 (an)</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>-ng/ㄥ/ㄤ</td>
+											<td>ng/ㄥ/ㄤ/Ext'd</td>
+											<td>江</td>
+											<td>吳 (ngôo)<br>櫻 (ing)<br>幫 (pang)<br>王 (ông)</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td>b/ㄅ</td>
+											<td>p/ㄅ</td>
+											<td>包</td>
+											<td>布 (pòo)</td>
+										</tr>
+										<tr>
+											<td>p̚</td>
+											<td></td>
+											<td>p/◌ㄅ</td>
+											<td></td>
+											<td>合 (ha̍p)</td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>p/ㄆ</td>
+											<td>ph/ㄆ</td>
+											<td>旁</td>
+											<td>普 (phóo)</td>
+										</tr>
+										<tr>
+											<td>b</td>
+											<td></td>
+											<td>b/Ext'd</td>
+											<td></td>
+											<td>明 (bîng)</td>
+										</tr>
+										<tr>
+											<td>z</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>ʐ</td>
+											<td>r-/ㄖ</td>
+											<td></td>
+											<td></td>
+											<td>日</td>
+										</tr>
+										<tr>
+											<td>ʑ</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>d͡ʑ</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ</td>
+											<td>s/ㄙ</td>
+											<td>私</td>
+											<td>三 (sam)</td>
+										</tr>
+										<tr>
+											<td>ʂ</td>
+											<td>sh/ㄕ</td>
+											<td></td>
+											<td>失</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>d͡z</td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td>d/ㄉ</td>
+											<td>t/ㄉ</td>
+											<td>端</td>
+											<td>端 (tuan)</td>
+										</tr>
+										<tr>
+											<td>t̚</td>
+											<td></td>
+											<td>t/◌ㄉ</td>
+											<td></td>
+											<td>七 (tshit)</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>t/ㄊ</td>
+											<td>-th/ㄊ</td>
+											<td>透</td>
+											<td>透 (thò)</td>
+										</tr>
+										<tr>
+											<td>t͡ɕ</td>
+											<td>j/ㄐ</td>
+											<td>ch/ㄐ</td>
+											<td>叫</td>
+											<td>精 (tsing)</td>
+										</tr>
+										<tr>
+											<td>t͡ɕʰ</td>
+											<td>q/ㄑ</td>
+											<td>chh/ㄑ</td>
+											<td></td>
+											<td>市 (tshī)</td>
+										</tr>
+										<tr>
+											<td>t͡s</td>
+											<td>z/ㄗ</td>
+											<td>ch/ㄗ</td>
+											<td>子</td>
+											<td>走 (tsáu)</td>
+										</tr>
+										<tr>
+											<td>t͡sʰ</td>
+											<td>c/ㄘ</td>
+											<td>chh/ㄘ</td>
+											<td>此</td>
+											<td>菜 (tshài)</td>
+										</tr>
+										<tr>
+											<td>ʈʂ</td>
+											<td>zh/ㄓ</td>
+											<td></td>
+											<td>之</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ʈʂʰ</td>
+											<td>ch/ㄔ</td>
+											<td></td>
+											<td>吃</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>w-/u-/ㄨ</td>
+											<td></td>
+											<td>我</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>x</td>
+											<td>h/ㄏ</td>
+											<td></td>
+											<td>火</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ɥ</td>
+											<td>yu-/-ü-/ㄩ</td>
+											<td></td>
+											<td>月</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ʔ</td>
+											<td></td>
+											<td>∅ /-h/◌ㄏ</td>
+											<td></td>
+											<td>影 (íng, [ʔiə̯ŋ˥˩])<br>桌 (toh)</td>
+										</tr>
+										<tr>
+											<td>m̩</td>
+											<td></td>
+											<td>m/Ext'd</td>
+											<td></td>
+											<td>姆 (ḿ)</td>
+										</tr>
+										<tr>
+											<td>ŋ̩</td>
+											<td></td>
+											<td>ng/Ext'd</td>
+											<td></td>
+											<td>光 (kng)<br>*Choan-chiu accent</td>
+										</tr>									</table>
+									<table id="tri" class="hidden">
+										
+										<tr>
+											<th scope="col" colspan="7">Mandarin | Cantonese | Hokkien</th>
+										</tr>
+										<tr>
+											<th colspan="7"><b>Consonants</b></th>
+										</tr>
+
+										<tr>
+											<td rowspan="2"><b>IPA</b></td>
+											<td colspan="3"><b>Symbols</b></td>
+											<td colspan="3"><b>Examples</b></td>
+										</tr>
+										<tr>
+											<td>Mandarin</td>
+											<td>Cantonese</td>
+											<td>Hokkien</td>
+											<td>Mandarin</td>
+											<td>Cantonese</td>
+											<td>Hokkien</td>
+										</tr>
+										<tr>
+											<td>ɕ</td>
+											<td>x/ㄒ</td>
+											<td></td>
+											<td>s/ㄒ</td>
+											<td>西</td>
+											<td></td>
+											<td>審 (sím)</td>
+										</tr>
+										<tr>
+											<td>f</td>
+											<td colspan="2">f/ㄈ</td>
+											<td></td>
+											<td>非</td>
+											<td>虎</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>h</td>
+											<td></td>
+											<td colspan="2">h/ㄏ</td>
+											<td></td>
+											<td>客</td>
+											<td>曉 (hiáu)</td>
+										</tr>
+										<tr>
+											<td>j</td>
+											<td>y-/i-</td>
+											<td>j</td>
+											<td></td>
+											<td>牙</td>
+											<td>月</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>k</td>
+											<td>g/ㄍ</td>
+											<td>g-ㄍ</td>
+											<td>k/ㄍ</td>
+											<td>干</td>
+											<td>家</td>
+											<td>見 (kiàn)</td>
+										</tr>
+										<tr>
+											<td>k̚</td>
+											<td></td>
+											<td>-k/-ㄎ</td>
+											<td>k/◌ㄍ</td>
+											<td></td>
+											<td>識</td>
+											<td>角 (kak)</td>
+										</tr>
+										<tr>
+											<td>kʰ</td>
+											<td>k/ㄎ</td>
+											<td>k-/ㄎ-</td>
+											<td>kh/ㄎ</td>
+											<td>口</td>
+											<td>卡</td>
+											<td>溪 (khe)</td>
+										</tr>
+										<tr>
+											<td>kʷ</td>
+											<td></td>
+											<td>gw	ㄍㄨ</td>
+											<td></td>
+											<td></td>
+											<td>瓜</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>kʷʰ</td>
+											<td></td>
+											<td>kw/ㄎㄨ</td>
+											<td></td>
+											<td></td>
+											<td>誇</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>g</td>
+											<td></td>
+											<td></td>
+											<td>g/Ext'd</td>
+											<td></td>
+											<td></td>
+											<td>義 (gī)</td>
+										</tr>
+										<tr>
+											<td>l</td>
+											<td colspan="3">l/ㄌ</td>
+											<td>了</td>
+											<td>落</td>
+											<td>來 (lâi)</td>
+										</tr>
+										<tr>
+											<td>m</td>
+											<td>m/ㄇ</td>
+											<td></td>
+											<td>m/ㄇ, Ext'dx2</td>
+											<td>明</td>
+											<td>莫</td>
+											<td>媽 (má)<br>暗 (àm)<br>參 (som)</td>
+										</tr>
+										<tr>
+											<td>n</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>n/ㄋ</td>
+											<td>n/ㄋ/ㄣ/ㄢ</td>
+											<td>泥</td>
+											<td>男</td>
+											<td>泥 (nî)<br>因 (in)<br>安 (an)</td>
+										</tr>
+										<tr>
+											<td>ŋ</td>
+											<td>-ng/ㄥ/ㄤ</td>
+											<td>ng/ㄫ</td>
+											<td>ng/ㄥ/ㄤ/Ext'd</td>
+											<td>江</td>
+											<td>牙</td>
+											<td>吳 (ngôo)<br>櫻 (ing)<br>幫 (pang)<br>王 (ông)</td>
+										</tr>
+										<tr>
+											<td>p</td>
+											<td colspan="2">b/ㄅ</td>
+											<td>p/ㄅ</td>
+											<td>包</td>
+											<td>班</td>
+											<td>布 (pòo)</td>
+										</tr>
+										<tr>
+											<td>p̚</td>
+											<td></td>
+											<td>-p/-ㄆ</td>
+											<td>p/◌ㄅ</td>
+											<td></td>
+											<td>濕</td>
+											<td>合 (ha̍p)</td>
+										</tr>
+										<tr>
+											<td>pʰ</td>
+											<td>p/ㄆ</td>
+											<td>p-/ㄆ-</td>
+											<td>ph/ㄆ</td>
+											<td>旁</td>
+											<td>拍</td>
+											<td>普 (phóo)</td>
+										</tr>
+										<tr>
+											<td>b</td>
+											<td></td>
+											<td></td>
+											<td>b/Ext'd</td>
+											<td></td>
+											<td></td>
+											<td>明 (bîng)</td>
+										</tr>
+										<tr>
+											<td>z</td>
+											<td></td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td></td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>ʐ</td>
+											<td>r-/ㄖ</td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td>日</td>
+										</tr>
+										<tr>
+											<td>ʑ</td>
+											<td></td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td></td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>d͡ʑ</td>
+											<td></td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td></td>
+											<td>熱 (jua̍h)</td>
+										</tr>
+										<tr>
+											<td>s</td>
+											<td>s/ㄙ</td>
+											<td>s/ㄙ/ㄒ</td>
+											<td>s/ㄙ</td>
+											<td>私</td>
+											<td>西</td>
+											<td>三 (sam)</td>
+										</tr>
+										<tr>
+											<td>ʂ</td>
+											<td>sh/ㄕ</td>
+											<td></td>
+											<td></td>
+											<td>失</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>d͡z</td>
+											<td></td>
+											<td></td>
+											<td>j/Ext'd</td>
+											<td></td>
+											<td></td>
+											<td>日 (ji̍t)</td>
+										</tr>
+										<tr>
+											<td>t</td>
+											<td colspan="2">d/ㄉ</td>
+											<td>t/ㄉ</td>
+											<td>端</td>
+											<td>打</td>
+											<td>端 (tuan)</td>
+										</tr>
+										<tr>
+											<td>t̚</td>
+											<td></td>
+											<td>-t/-ㄊ</td>
+											<td>t/◌ㄉ</td>
+											<td></td>
+											<td>失</td>
+											<td>七 (tshit)</td>
+										</tr>
+										<tr>
+											<td>tʰ</td>
+											<td>t/ㄊ</td>
+											<td>t-/ㄊ</td>
+											<td>-th/ㄊ</td>
+											<td>透</td>
+											<td>拖</td>
+											<td>透 (thò)</td>
+										</tr>
+										<tr>
+											<td>t͡ɕ</td>
+											<td>j/ㄐ</td>
+											<td></td>
+											<td>ch/ㄐ</td>
+											<td>叫</td>
+											<td></td>
+											<td>精 (tsing)</td>
+										</tr>
+										<tr>
+											<td>t͡ɕʰ</td>
+											<td>q/ㄑ</td>
+											<td></td>
+											<td>chh/ㄑ</td>
+											<td></td>
+											<td>去</td>
+											<td>市 (tshī)</td>
+										</tr>
+										<tr>
+											<td>t͡s</td>
+											<td>z/ㄗ</td>
+											<td>z/ㄗ/ㄐ</td>
+											<td>ch/ㄗ</td>
+											<td>子</td>
+											<td>將</td>
+											<td>走 (tsáu)</td>
+										</tr>
+										<tr>
+											<td>t͡sʰ</td>
+											<td>c/ㄘ</td>
+											<td>c/ㄘ/ㄑ</td>
+											<td>chh/ㄘ</td>
+											<td>此</td>
+											<td>鏘</td>
+											<td>菜 (tshài)</td>
+										</tr>
+										<tr>
+											<td>ʈʂ</td>
+											<td>zh/ㄓ</td>
+											<td></td>
+											<td></td>
+											<td>之</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ʈʂʰ</td>
+											<td>ch/ㄔ</td>
+											<td></td>
+											<td></td>
+											<td>吃</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>w</td>
+											<td>w-/u-/ㄨ</td>
+											<td>w/ㄨ</td>
+											<td></td>
+											<td>我</td>
+											<td>活</td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>x</td>
+											<td>h/ㄏ</td>
+											<td></td>
+											<td></td>
+											<td>火</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ɥ</td>
+											<td>yu-/-ü-/ㄩ</td>
+											<td></td>
+											<td></td>
+											<td>月</td>
+											<td></td>
+											<td></td>
+										</tr>
+										<tr>
+											<td>ʔ</td>
+											<td></td>
+											<td></td>
+											<td>∅ /-h/◌ㄏ</td>
+											<td></td>
+											<td></td>
+											<td>影 (íng, [ʔiə̯ŋ˥˩])<br>桌 (toh)</td>
+										</tr>
+										<tr>
+											<td>m̩</td>
+											<td></td>
+											<td>m/ㄇ</td>
+											<td>m/Ext'd</td>
+											<td></td>
+											<td>唔</td>
+											<td>姆 (ḿ)</td>
+										</tr>
+										<tr>
+											<td>ŋ̩</td>
+											<td></td>
+											<td>ng/ㄫ</td>
+											<td>ng/Ext'd</td>
+											<td></td>
+											<td>五</td>
+											<td>光 (kng)<br>*Choan-chiu accent</td>
+										</tr>
+									</table>
+								</section>
+								<script src="JS/main.js"></script>
+							</body>
+							</html>
+							
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="images/map-china-dialects.jpg" class="image fit"><img src="images/map-china-dialects.jpg" alt=""></a>
+										</div>
+										<!--
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="hidden"><img src="images/pic02.jpg" alt=""></a>
+										</div>											
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									-->
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy;2022</li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
