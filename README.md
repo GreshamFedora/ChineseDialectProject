@@ -3,7 +3,7 @@
 This project started as a simple way to solve a personal problem: to enable quick access to phonology table analyses of Mandarin, Hokkien/Southern Min, and Cantonese in one place, though the project all too quickly expanded from there into a simple site meant to serve as a hub for resources for those with a foundation in Mandarin that are interested in studying Hokkien/Southern Min or Cantonese using Mandarin-language resources OR that are interested in building upon their foundation in Mandarin. In short, put resources in one place to expedite learners' journey down the path of learning the language that they're interested in. In my own terms I call this 'shortening the ladder'. By using Mandarin to learn Cantonese or Hokkien/Southern Min, you are already using a ladder to quickly ascend on up whilst most others (not knowing Mandarin or another language) are trudging haphazardly up flights of stairs to get to the next floor. If I can shorten just one person's ladder, if I can expedite their learning process even just a little bit, then I've succeeded at my goal.
 
 Link to project: https://chinesedialectproject.netlify.app/
-![image](https://user-images.githubusercontent.com/102261261/177900462-91bc6d14-40b8-481f-a6a8-5ab5008bcf5b.png)
+![image](https://user-images.githubusercontent.com/102261261/177902711-6bc8b605-3b04-4110-8681-ebd886c41ebe.png)
 
 alt tag
 How It's Made:
@@ -18,4 +18,4 @@ Refactored phonology table sections together into a DRYer code section that was 
 
 
 Lessons Learned:
-Creating a website and the materials to be displayed on it is quite labor-intensive, making sure that said website and all of its elements are responsive across devices is a constant challenge.
+Creating a website and all of the materials (images, diagrams, tables, etc.) to be displayed on it is quite labor-intensive, and making sure that said website and all of said materials are responsive across devices is a constant challenge.
