@@ -1,20 +1,21 @@
 #ChineseDialectProject
 
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This project started as a simple way to solve a personal problem: to enable quick access to phonology table analyses of Mandarin, Hokkien/Southern Min, and Cantonese in one place, though the project all too quickly expanded from there into a simple site meant to serve as a hub for resources for those with a foundation in Mandarin that are interested in studying Hokkien/Southern Min or Cantonese using Mandarin-language resources OR that are interested in building upon their foundation in Mandarin. In short, put resources in one place to expedite learners' journey down the path of learning the language that they're interested in. In my own terms I call this 'shortening the ladder'. By using Mandarin to learn Cantonese or Hokkien/Southern Min, you are already using a ladder to quickly ascend on up whilst most others (not knowing Mandarin or another language) are trudging haphazardly up flights of stairs to get to the next floor. If I can shorten just one person's ladder, if I can expedite their learning process even just a little bit, then I've succeeded at my goal.
 
 Link to project: https://chinesedialectproject.netlify.app/
+![image](https://user-images.githubusercontent.com/102261261/177900462-91bc6d14-40b8-481f-a6a8-5ab5008bcf5b.png)
 
 alt tag
 How It's Made:
 
-Tech used: HTML, CSS, JavaScript, Framework of choice
+Tech used: HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Built out a simple site around the idea of presenting a simple interface created using HTML, CSS, and JavaScript that empowers users with quick access in one place to (1) phonology tables for Mandarin, Hokkien/Southern Min, and Hokkien and (2) phonology tables comparing each and all of these three languages. Normally the tables would be accessible via loading multiple pages and the comparison tables are just plain not typically available online. I used JavaScript to enable the tables to be accessible quickly and created most all materials from scratch.
+
 Optimizations
+Refactored phonology table sections together into a DRYer code section that was replicated across other phonology table sections.
 
-(optional)
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+
 Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or fuck yeah I did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+Creating a website and the materials to be displayed on it is quite labor-intensive, making sure that said website and all of its elements are responsive across devices is a constant challenge.
