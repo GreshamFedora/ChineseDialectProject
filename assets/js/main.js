@@ -205,7 +205,7 @@
 
 })(jQuery);
 
-//enables button to select tables
+//enables buttons to select tables
 const mn = document.querySelector('#mandarin');
 const ct = document.querySelector('#cantonese');
 const hk = document.querySelector('#hokkien');
