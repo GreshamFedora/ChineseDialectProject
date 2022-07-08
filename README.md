@@ -5,7 +5,7 @@ This project started as a simple way to solve a personal problem: to enable quic
 Link to project: https://chinesedialectproject.netlify.app/
 ![image](https://user-images.githubusercontent.com/102261261/177902711-6bc8b605-3b04-4110-8681-ebd886c41ebe.png)
 
-alt tag
+
 How It's Made:
 
 Tech used: HTML, CSS, JavaScript
