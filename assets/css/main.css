@@ -2214,3 +2214,7 @@ th, td {
 	border: 1px solid #242425;
 	padding: 10px px;
 }
+
+.divider {
+	color: white;
+}
