@@ -2216,5 +2216,6 @@ th, td {
 }
 
 .divider {
-	color: white;
+	color: black;
+	background-color: black;
 }
