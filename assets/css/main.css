@@ -2219,3 +2219,7 @@ th, td {
 	color: black;
 	background-color: black;
 }
+
+.emptyCell {
+	background-color: grey;
+}
