@@ -14,7 +14,8 @@ Built out a simple site around the idea of presenting a simple interface created
 
 Optimizations
 Refactored phonology table sections together into a DRYer code section that was replicated across other phonology table sections.
-Adding vowel data
+
+Adding vowel data.
 
 
 Lessons Learned:
