@@ -12,7 +12,7 @@ Tech used: HTML, CSS, JavaScript
 
 Built out a simple site around the idea of presenting a simple interface created using HTML, CSS, and JavaScript that empowers users with quick access in one place to (1) phonology tables for Mandarin, Hokkien/Southern Min, and Hokkien and (2) phonology tables comparing each and all of these three languages. Normally the tables would be accessible via loading multiple pages and the comparison tables are just plain not typically available online. I used JavaScript to enable the tables to be accessible quickly and created most all materials from scratch.
 
-Optimizations
+Optimizations:
 Refactored phonology table sections together into a DRYer code section that was replicated across other phonology table sections.
 
 Adding vowel data.
